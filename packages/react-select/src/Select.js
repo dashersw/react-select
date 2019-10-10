@@ -1419,7 +1419,6 @@ export default class Select extends Component<Props, State> {
           onBlur={this.onInputBlur}
           onChange={noop}
           onFocus={this.onInputFocus}
-          readOnly
           disabled={isDisabled}
           tabIndex={tabIndex}
           value=""
